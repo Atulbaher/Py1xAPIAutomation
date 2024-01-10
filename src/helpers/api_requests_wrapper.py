@@ -49,4 +49,4 @@ def delete_requests(url, headers, auth, in_json):
 
 # httpsapp.vwo.com , auth =
 
-# XML data -> json Data
+# XML data -> jsondata
