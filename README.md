@@ -22,3 +22,13 @@ Hybride Custom Framework to Test the REST APIs
 
 ## To install te Freeze version 
 '' pip install -r requirements.txt ''
+
+## How to run your Testcase Parallel ##
+'' pip install pytest-xdist ''
+'' pytest -n auto test/integration_test/test_create_booking.py -s -v ''
+
+## To work with the Excel ##
+'' pip install openpyxl ''
+
+## To work with JSON Schema ##
+'' pip install jsonschema ''
